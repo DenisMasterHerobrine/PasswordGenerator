@@ -1,7 +1,9 @@
 ![https://github.com/DenisMasterHerobrine/AngelRing](https://img.shields.io/github/license/DenisMasterHerobrine/PasswordGenerator) 
 ![https://github.com/DenisMasterHerobrine/AngelRing](https://img.shields.io/github/issues/denismasterherobrine/PasswordGenerator)
 <div align="center"> <h1> DMHDev's Password Generator</h1> </div>
-<div align="center"> A simple C++ console application to generate passwords as randomly as possible with lots of randomizing options such as strength and ASCII character coverage. </div>
+<div align="center"> A simple C++ console application to generate passwords as randomly as possible with lots of randomizing options such as strength and ASCII character coverage. 
+<img src=".\Preview.png" alt="Preview">
+</div>
 
 # About
 DMHDev's Password Generator simple C++ console application to generate passwords as randomly as possibly with lots of randomizing options such as strength and ASCII character coverage.
