@@ -5,7 +5,7 @@
 #include "Generator.h" // Password Generator main generation functions of the password.
 #include "consoleapi2.h"
 // DMHDev's C++ Password Generator v1.0
-// Written on C++; Uses default C++ randomizing algorithms. Probably usable, but mainly create for personal usage. (It's WIP)
+// Written on C++; Uses default C++ randomizing algorithms. Probably usable, but mainly created for personal usage and for fun and C++ practicing.
 // Licensed under MIT License.
 
 // Use external Windows API callback to copy password into clipboard memory.
