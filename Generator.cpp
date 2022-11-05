@@ -124,16 +124,15 @@ std::string generate(int mode, int length)
 	}
 
 	case 9: {
-		static const char layer8[] = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()[]+,-./:;<>=?абвгдеёжзийклмнопрстуфхцчшъыьэюяАБВГДЕЁЖЗИЙКЛМАОПРСТУФХЦЧШЪЫЬЭЮЯЄєЇїЎў°··√№¤■░▒▓││┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼¶§↨↑↓→←∟↔▲▼";
+		static const char layer9[] = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()[]+,-./:;<>=?абвгдеёжзийклмнопрстуфхцчшъыьэюяАБВГДЕЁЖЗИЙКЛМАОПРСТУФХЦЧШЪЫЬЭЮЯЄєЇїЎў°··√№¤■░▒▓││┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼¶§↨↑↓→←∟↔▲▼";
 		srand(getSeed());
-		size_t size = sizeof(layer8) / sizeof(layer8[0]);
+		size_t size = sizeof(layer9) / sizeof(layer9[0]);
 		for (int i = 0; i < length; i++) {
-			password += layer8[rand() % size];
+			password += layer9[rand() % size];
 		}
 		break;
 	}
-
-	}
+}
 
 	return password;
 }
