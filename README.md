@@ -8,7 +8,7 @@
 </div>
 
 # About
-DMHDev's Password Generator simple C++ console application to generate passwords as randomly as possibly with lots of randomizing options such as strength and ASCII character coverage.
+DMHDev's Password Generator is a simple C++ console application to generate passwords as randomly as possibly with lots of randomizing options such as strength and ASCII character coverage.
 
 # Downloads 
 It can be downloaded in [releases](https://github.com/DenisMasterHerobrine/PasswordGenerator/releases) section.
